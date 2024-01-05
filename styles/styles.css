@@ -1,0 +1,152 @@
+/* styles.css */
+/* CSS styles */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #091e0f; /* Updated dark green background */
+  color: #fff;
+  margin-bottom: 50px; /* Adjust as needed to avoid overlap with footer */
+}
+
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Header & Footer */
+
+header {
+  background-color: #091e0f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.navigation {
+  padding: 10px 0;
+}
+
+.navigation a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed */
+  background-color: #091e0f; /* Dark green background */
+  color: #fff;
+  text-align: center;
+  padding-top: 15px; /* Centering content in the footer */
+}
+
+.contact {
+  /* margin-top: 20px;  */
+  padding: 20px 0;
+  background-color: #091e0f;
+  color: #fff;
+  text-align: center;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Page Content */
+
+.container {
+  width: 100%; /* Extend to left and right edges */
+  margin: 0 auto;
+  padding: 20px 0; /* Adjust vertical padding as needed */
+  text-align: center;
+  background-color: #A33C27;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.page-exhibit {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%; /* Adjust the image container size */
+  max-width: 100%; /* Ensure image container doesn't exceed parent width */
+  margin: 0 auto; /* Centers the container */
+}
+
+.page-exhibit img {
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adjust the image size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.left-aligned {
+  list-style-position: inside;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+.content ul {
+  text-align: left; /* Align text to the left within UL elements */
+  margin-left: 20px; /* Add indentation for better readability */
+}
+.content ul ul {
+  margin-left: 20px; /* Add indentation for nested UL elements */
+}
+
+/* Tables */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: none; /* Removes table borders */
+}
+td {
+  text-align: left;
+  padding: 12px;
+  border: none; /* Removes cell borders */
+}
+td:first-child {
+  font-weight: bold;
+  text-align: left; /* Aligns first column text to the left */
+}
+
+.fixed-layout-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.col10 {
+  width: 10%;
+}
+
+.col30 {
+  width: 30%;
+}
+
+.col40 {
+  width: 40%;
+}
+
+.col60 {
+  width: 60%;
+}
+
+.col70 {
+  width: 70%;
+}
+
+.col90 {
+  width: 90%;
+}
