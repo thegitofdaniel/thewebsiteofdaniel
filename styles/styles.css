@@ -77,7 +77,7 @@ footer {
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 60%; /* Adjust the image container size */
+  width: 75%; /* Adjust the image container size */
   max-width: 100%; /* Ensure image container doesn't exceed parent width */
   margin: 0 auto; /* Centers the container */
 }
@@ -94,7 +94,7 @@ footer {
 }
 
 .wrapper {
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
 }
 .content ul {
