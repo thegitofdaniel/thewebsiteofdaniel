@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="styles/styles.css">
-<script src="scripts/functions.js"></script>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <script src="scripts/functions.js"></script>
 
-<div id="headerDiv"></div>
-<script>
-    importComponent(component='components/header.html', targetDiv='headerDiv');
-</script>
+  <div id="headerDiv"></div>
+  <script>
+    importComponent(
+      (component = "components/header.html"),
+      (targetDiv = "headerDiv")
+    );
+  </script>
 
-<div id="contentDiv"></div>
-<script>
-    importComponent(component='components/pc-about-us.html', targetDiv='contentDiv');
-</script>
+  <div id="contentDiv"></div>
+  <script>
+    importComponent(
+      (component = "components/pc-about-us.html"),
+      (targetDiv = "contentDiv")
+    );
+  </script>
 
-<div id="footerDiv"></div>
-<script>
-    importComponent(component='components/footer.html', targetDiv='footerDiv');
-</script>
-
-</body>
+  <div id="footerDiv"></div>
+  <script>
+    importComponent(
+      (component = "components/footer.html"),
+      (targetDiv = "footerDiv")
+    );
+  </script>
 </html>

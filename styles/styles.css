@@ -14,7 +14,10 @@ body {
   margin-bottom: 50px; /* Adjust as needed to avoid overlap with footer */
 }
 
-a, a:hover, a:visited, a:active {
+a,
+a:hover,
+a:visited,
+a:active {
   color: inherit;
   text-decoration: none;
 }
@@ -69,7 +72,7 @@ footer {
   margin: 0 auto;
   padding: 20px 0; /* Adjust vertical padding as needed */
   text-align: center;
-  background-color: #A33C27;
+  background-color: #a33c27;
   height: auto; /* Maintain aspect ratio */
 }
 
