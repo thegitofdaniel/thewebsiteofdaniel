@@ -1,0 +1,26 @@
+# Ignore cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore cache directories (adjust as needed)
+.cache/
+.cache/
+.cache/*
+.cache/**/*
+
+# Ignore npm/yarn package caches
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore miscellaneous cache or temp files (adjust as needed)
+*.swp
+.DS_Store
+
+# Ignore pytest cache files
+.pytest_cache/
+pytest_cache/
+pytest_cache/*
+pytest_cache/**/*
