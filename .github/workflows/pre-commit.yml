@@ -18,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
+      - name: Install dependencies # Install dependencies (if any)
+        run: |
+          pip install -r requirements.txt  # Use this if you have a requirements.txt file
       - name: Test with pytest
         run: pytest tests/ --doctest-modules --junitxml=junit/test-results-${{ matrix.python-version }}.xml
       - name: Upload pytest test results
