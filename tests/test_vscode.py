@@ -1,7 +1,7 @@
 import json
 
 def test_vscode_settings():
-    with open('/workspaces/thewebsiteofdaniel/.vscode/settings.json') as f:
+    with open('./.vscode/settings.json') as f:
         settings = json.load(f)
 
     assert 'cSpell.words' in settings, "'cSpell.words' setting is missing"
