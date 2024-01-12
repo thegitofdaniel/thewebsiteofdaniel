@@ -17,11 +17,10 @@ This website serves as an interactive resume to highlight my professional experi
 
 ## Features
 
-- **Home Page:** Introduces me and provides a brief overview.
-- **CV/Resume Page:** Details my work experience, education, and qualifications.
-- **Projects:** Showcases my notable projects with descriptions and possibly links to their repositories or live demos.
-- **Skills:** Lists my technical and professional skills.
-- **Contact:** Offers various ways to get in touch with me.
+- **Home Page:** The landing page.
+- **Past Experience:** Details my past work experience in value-adding projects to clients all over the world.
+- **Stack:** Details academic degrees, industry certifications, programming languages, and spoken languages.
+- **About-Us:** Offers a summary, and various ways to get in touch with me.
 
 ## Installation
 
@@ -31,7 +30,7 @@ This website serves as an interactive resume to highlight my professional experi
 
 ## Usage
 
-Visit daniel.nl to see how it looks like published.
+Visit [danielruiz.nl](http://danielruiz.nl) to see how it looks like published.
 
 ## Contributing
 
@@ -45,5 +44,8 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-No
 
 Thank you for visiting my repository! If you have any questions or inquiries, feel free to contact me.
 
+---
+
 [![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)
+
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/pre-commit/pre-commit/main.svg)](https://results.pre-commit.ci/latest/github/pre-commit/pre-commit/main)
