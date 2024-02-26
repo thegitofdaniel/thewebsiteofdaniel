@@ -38,7 +38,7 @@ Contributions are welcome! If you find any bugs, typos, or have suggestions for 
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
