@@ -29,6 +29,8 @@ This website serves as an interactive resume to highlight my professional experi
 3. Open `index.html` in your web browser to view the website locally.
 
 py -3 -m http.server
+npx prettier --write components/*.html
+htmlhint .
 
 ## Usage
 
