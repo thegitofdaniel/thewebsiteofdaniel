@@ -14,7 +14,7 @@ function importComponent(component, targetDivId) {
     .then((html) => {
       const parser = new DOMParser();
       const externalDoc = parser.parseFromString(html, "text/html");
-      const importedContent = externalDoc.getElementById("divToImport");
+      const importedContent = externalDoc.getElementById("sourceDiv");
 
       if (!importedContent) {
         throw new Error(
