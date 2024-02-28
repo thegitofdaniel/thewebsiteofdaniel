@@ -432,7 +432,7 @@ section.services .container .service:hover{
 }
 
 section.services .container .service span{
-    background: var(--color-primary);
+    background: var(--color-success);
     width: 4rem;
     height: 4rem;
     margin: 0 auto;
@@ -443,6 +443,7 @@ section.services .container .service span{
     color: var(--color-white);
 }
 
+/*
 section.services .container .service:nth-child(2) span{
     background: var(--color-warning);
 }
@@ -450,6 +451,7 @@ section.services .container .service:nth-child(2) span{
 section.services .container .service:nth-child(3) span{
     background: var(--color-success);
 }
+*/
 
 section.portfolio .projects{
     display: grid;
