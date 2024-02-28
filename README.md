@@ -28,6 +28,8 @@ This website serves as an interactive resume to highlight my professional experi
 2. Navigate to the project directory.
 3. Open `index.html` in your web browser to view the website locally.
 
+py -3 -m http.server
+
 ## Usage
 
 Visit [danielruiz.nl](http://danielruiz.nl) to see how it looks like published.
