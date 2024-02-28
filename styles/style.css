@@ -451,12 +451,6 @@ section.services .container .service:nth-child(3) span{
     background: var(--color-success);
 }
 
-section.recent-work h1{
-    text-align: left;
-    margin: 3rem 0 1rem;
-    width: 65%;
-}
-
 section.recent-work .projects{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -827,7 +821,7 @@ footer .copyright{
         width: 94vw;
         margin: 1.4rem 0 1rem;
     }
-
+    
     section.testimonials .container{
         grid-template-columns: 1fr;
         width: 94vw;
