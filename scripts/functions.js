@@ -34,3 +34,37 @@ function importComponent(component, targetDivId) {
     })
     .catch((error) => console.error("Error:", error));
 }
+
+function generateProgressItems(containerId, items) {
+  // Get the container where you want to append the items
+  var container = document.getElementById(containerId);
+
+  // Check if container exists
+  if (!container) {
+      console.error('Container with id "' + containerId + '" not found.');
+      return;
+  }
+
+  // Loop through each item in the array
+  items.forEach(function(item) {
+      // Destructure the name and percentage from the item tuple
+      var [name, percentage] = item;
+
+      // Create the 'item' div
+      var itemDiv = document.createElement('div');
+      itemDiv.className = 'item';
+
+      // Create the inner HTML of the item div using a template string
+      itemDiv.innerHTML = `
+          <h5>${name}</h5>
+          <div class="progress-area">
+              <div class="progress-bar">
+                  <div class="progress" style="width: ${percentage}%"></div>
+              </div>
+          </div>
+      `;
+
+      // Append the item div to the container
+      container.appendChild(itemDiv);
+  });
+}
