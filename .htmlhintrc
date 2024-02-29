@@ -1,0 +1,14 @@
+{
+    "tagname-lowercase": true, // Ensure all tag names are in lowercase to maintain consistency and avoid case-sensitive issues.
+    "attr-lowercase": true, // Enforce all attribute names to be in lowercase to prevent case-related errors.
+    "attr-value-double-quotes": true, // Require all attribute values to be enclosed in double quotes for consistency and to avoid parsing errors.
+    "attr-value-not-empty": true, // Ensure that all attributes have a value, preventing potential rendering or behavior issues.
+    "attr-no-duplication": true, // Disallow duplicate attributes within a tag to prevent unexpected behavior.
+    "doctype-first": false, // Do not require the DOCTYPE declaration to be the first line in the document, allowing for flexibility in HTML templates or partials.
+    "tag-pair": true, // Ensure that tags are properly paired, with opening and closing tags present, to maintain valid HTML structure.
+    "tag-self-close": false, // Do not enforce self-closing tags, providing flexibility for HTML5 and XML/XHTML syntax compatibility.
+    "spec-char-escape": true, // Require special characters to be escaped, preventing issues with HTML parsing and XSS vulnerabilities.
+    "id-unique": true, // Ensure all IDs are unique within the document to prevent conflicts in CSS and JavaScript targeting.
+    "src-not-empty": true, // Ensure that `src` attributes (in tags like `<img>` and `<script>`) have a value to prevent resource fetching errors.
+    "title-require": true // Require a `<title>` tag to be present in the document for improved SEO and accessibility.
+}
