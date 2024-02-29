@@ -1,9 +1,9 @@
 name: ci
 
 on:
-  push:
-    branches: [feature/*, main]
+    push:
+        branches: [feature/*, main]
 
 jobs:
-  ci:
-    uses: thegitofdaniel/pipelines/.github/workflows/ci.yml@main
+    ci:
+        uses: thegitofdaniel/pipelines/.github/workflows/ci.yml@main

@@ -1,386 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Daniel</title>
+        <!-- External CSS files -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap"
+        />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <!-- Preconnect links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+        <!-- External JavaScript files -->
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script src="scripts/functions.js"></script>
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daniel</title>
-  <!-- External CSS files -->
-  <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap">
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <!-- Preconnect links -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-  <!-- External JavaScript files -->
-  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-</head>
-
-
-<body>
-    <nav>
-
-        <div class="container">
-            <a href="#">
-                <h3>Daniel</h3>
-            </a>
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Let's Talk</a></li>
-            </ul>
-            <button id="menu-btn">
-                <span class="material-symbols-sharp">
-                    menu
-                </span>
-            </button>
-            <button id="close-btn">
-                <span class="material-symbols-sharp">
-                    close
-                </span>
-            </button>
-        </div>
-
-    </nav>
-
-    <section class="landing">
-        <div class="container">
-            <div class="socials">
-                <a
-                href="https://www.linkedin.com/in/econometrics/"
-                target="_blank"
-                title="Visit my LinkedIn profile"
-                >
-                <i class="uil uil-linkedin"></i>
-                </a>
-                <a href="https://github.com/thegitofdaniel" target="_blank" title="Visit my GitHub profile">
-                <i class="uil uil-github"></i>
-                </a>
-                <a
-                href="https://medium.com/@theblogofdaniel"
-                target="_blank"
-                title="Visit my Medium profile"
-                >
-                <i class="uil uil-medium-m"></i>
-                </a>
-            </div>
-
-            <div class="info">
-                <h1>Consultant in Data &amp; AI for Finance</h1>
-                <h3>Hi, I'm Daniel Ruiz</h3>
-                <p>
-                    I'm an Economist turned into Data Scientist and Machine Learning Engineer. That's a fancy
-                    way of saying I love Econometrics, developing models, and make them solve real-life problems. I
-                    am very curious about Data, AI, and Finance.
-                </p>
-                <a href="#contact" class="btn btn-primary">Let's Talk</a>
-                <a
-                href="./assets/documents/CV - Daniel Ruiz.pdf"
-                class="btn btn-primary"
-                download="CV - Daniel Ruiz.pdf"
-                >
-                <i class="uil uil-download-alt"></i>
-                Download CV
-                </a>
-            </div>
-
-            <div class="profile-area">
-                <div class="outer-circle">
-                    <span class="material-symbols-outlined">design_services</span>
-                    <span class="material-symbols-outlined">payments</span>
-                    <span class="material-symbols-outlined">code</span>
-                    <span class="material-symbols-outlined">subscriptions</span>
-                </div>
-
-                <div class="inner-circle">
-                    <img src="./assets/images/daniel-ruiz-portrait-square.jpg" alt="" />
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="about" id="about">
-
-        <h1>About</h1>
-
-        <div class="container">
-            <div class="image">
-                <img src="./assets/images/dalle-upward-arrow.png" alt="">
-            </div>
-            <div class="info">
-                <p>
-                    My curiosity has led me to develop awesome projects to clients all over Europe. I've had the privilege of unraveling the hidden potential within their data, employing the right questions and the latest technology stacks to deliver innovative solutions. Through this process, I've not only solved their immediate challenges but also emphasized the fundamental importance of data in shaping modern decision-making. By showcasing its ability to disrupt traditional business paradigms and unearth new value, I've made a tangible impact on both my clients' success and the broader landscape of innovation. It's a journey fueled by passion and purpose, and I'm excited to continue making strides in this ever-evolving field.
-                </p>
-                <div class="read-more-content">
-                
-                    <p>           
-                        Since 2020, I've played a pivotal role in building greenfield Data Platforms to enable large-caps on AIML and maximize the value derived from data. My contributions include developing models for Energy and Gas consumption using Azure Machine Learning, utilizing state-of-the-art algorithms to input missing data, establishing MLOPS processes for model deployment, implementing robust data pipelines, and introducing agile methodologies to strengthen team collaboration.
-                    </p>
-                    <p>
-                        In addition to my core responsibilities, I've also been actively involved in fostering a culture of continuous learning and innovation within the teams I've worked with. This has included organizing knowledge-sharing sessions, conducting workshops on emerging technologies and best practices, and mentoring junior team members to help them grow their skills and expertise in data science and machine learning. Furthermore, I've been instrumental in fostering strong cross-functional relationships between data science, engineering, and business stakeholders, ensuring alignment of objectives and effective communication channels throughout project life-cycles. By championing a collaborative and growth-oriented environment, I've helped foster a sense of ownership and accountability among team members, resulting in greater efficiency and success in achieving our project goals.
-                    </p>
-                </div>
-                <a class="read-more">Show More</a>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="skills" id="skills">
-        <h1>Skills</h1>
-
-        <div class="container">
-
-            <div class="skill">
-                <div class="head">
-                    <div class="left">
-                        <span class="material-icons-sharp">model_training</span>
-                        <h4>Model Development</h4>
-                    </div>
-                    <div class="right">
-                        <span class="material-icons-sharp">expand_more</span>
-                    </div>
-                </div>
-
-                <div class="items" id="items1"></div>
-                <script src="scripts/functions.js"></script>
-                <script>
-                    var items = [
-                    ["Econometrics", 100],
-                    ["Time-Series Analysis", 100],
-                    ["Machine Learning", 100],
-                    ["Classification Models", 100],
-                    ["Regression Analysis", 100],
-                    ["Forecasting", 100],
-                    ["Bayesian Methods", 100],
-                    ["Support Vector Machines (SVM)", 100],
-                    ["Dimensionality Reduction", 100],
-                    ["Feature Engineering", 100],
-                    ["Model Validation and Evaluation", 100],
-                    ["Anomaly Detection", 100],
-                    ["Hyperparameter Tuning", 100],
-                    ["Deep Learning", 90],
-                    ["Natural Language Processing (NLP)", 90],
-                    ["Ensemble Methods", 90],
-                    ["Computer Vision", 80],
-                    ["Reinforcement Learning", 80],
-                    ["Explainable AI (XAI)", 80],
-                    ["Transfer Learning", 80],
-                    ];
-                    generateProgressItems('items1', items);
-                </script>
-            </div>
-
-
-            <div class="skill">
-                <div class="head">
-                    <div class="left">
-                        <span class="material-icons-sharp">diversity_3</span>
-                        <h4>MLOPS</h4>
-                    </div>
-                    <div class="right">
-                        <span class="material-icons-sharp">expand_more</span>
-                    </div>
-                </div>
-
-                <div class="items" id="items2"></div>
-                <script src="scripts/functions.js"></script>
-                <script>
-                    var items = [
-                        ["Continuous Integration and Continuous Deployment (CI/CD) for ML", 100],
-                        ["Model Versioning and Management", 100],
-                        ["Automated Model Testing and Validation", 100],
-                        ["Azure Machine Learning", 100],
-                        ["Databricks", 100],
-                        ["Model Monitoring", 100],
-                        ["Model Experimentation and Tracking (Mlflow)", 100],
-                        ["Deployment", 100],
-                        ["ML Infrastructure and Resource Management (IaaC)", 100],
-                        ["Agile and Scrum", 100]
-                    ];
-                    generateProgressItems('items2', items);
-                </script>
-            </div>
-
-            <div class="skill">
-                <div class="head">
-                    <div class="left">
-                        <span class="material-icons-sharp">payments</span>
-                        <h4>Finance</h4>
-                    </div>
-                    <div class="right">
-                        <span class="material-icons-sharp">expand_more</span>
-                    </div>
-                </div>
-
-                <div class="items" id="items3"></div>
-                <script src="scripts/functions.js"></script>
-                <script>
-                    var items = [
-                        ["ESG Integration in Investment Analysis", 100],
-                        ["Corporate Finance Fundamentals", 100],
-                        ["Valuation Techniques and Models", 100],
-                        ["Fixed Income Securities Analysis", 100],
-                        ["Credit Risk Assessment and Management", 100],
-                        ["Interest Rate Risk Management", 100],
-                        ["Bond Pricing and Yield Analysis", 100],
-                        ["Portfolio Management Strategies for Fixed Income", 100],
-                        ["Financial Markets and Instruments Research", 100],
-                        ["Capital Structure and Funding Strategies", 100],
-                        ["Regulatory Compliance and Reporting in Finance", 100]
-                    ];
-                    generateProgressItems('items3', items);
-                </script>
-            </div>
-
-
-        </div>
-    </section>
-
-    <section class="services" id="services">
-        <h1>Services</h1>
-        <div class="container">
-            <div class="service">
-                <span class="material-icons-sharp">model_training</span>
-                <h3>Model Development</h3>
-                <p>
-                    I development professional Machine Learning and Econometric models using the latest
-                    frameworks and technologies, and I am committed to generating a value-adding solution. The
-                    data and context should determine the complexity of the solution adopted.
-                </p>
-            </div>
-        
-            <div class="service">
-                <span class="material-icons-sharp">diversity_3</span>
-                <h3>MLOPS</h3>
-                <p>
-                    I introduce Data &amp; AI teams to best practices of MLOPS, Software Engineering, and
-                    Agile. I help them work better together to deliver excellent data products faster through
-                    proven Ways of Working. I help teams master GitHub, Azure, and Databricks.
-                </p>
-            </div>
-        
-            <div class="service">
-                <span class="material-icons-sharp">payments</span>
-                <h3>Finance</h3>
-                <p>
-                    I use quantitative and qualitative financial data to scientifically perform the Valuation
-                    and risk of companies and bonds, as well as aggregate properties of portfolios.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <h1>Portfolio</h1>
-        <div class="container">
-            <div class="projects">
-                <div class="project">
-                    <div class="thumbnail">
-                        <img src="./assets/images/pypi-interesting.png" alt="" />
-                    </div>
-                    <h2>interesting</h2>
-                    <p>
-                        The interesting Python package is a specialized toolkit for dealing with Brazilian fixed
-                        income titles. It provides functionalities to build, analyze, visualize, and valuate
-                        various types of fixed income instruments and portfolios made thereof.
-                    </p>
-                    <div class="action">
-                        <a href="https://github.com/thegitofdaniel/interesting" target="_blank">Github</a>
-                        <a href="https://pypi.org/project/interesting" target="_blank">PyPi</a>
-                    </div>
-                </div>
-        
-                <div class="project">
-                    <div class="thumbnail">
-                        <img src="./assets/images/thewebsiteofdaniel.png" alt="" />
-                    </div>
-                    <h2>My Website</h2>
-                    <p>
-                        Yes, this website is available on my GitHub. It has been built from open-sourced
-                        templates. You may copy it too, aas long as you keep the license.
-                    </p>
-                    <div class="action">
-                        <a href="https://github.com/thegitofdaniel/thewebsiteofdaniel" target="_blank">
-                            Github
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="overlay">
+    <body>
+        <nav>
             <div class="container">
-                <h1>Let's Talk</h1>
-                <p>I will get back to you as soon as possible.</p>
-                <form action="https://formspree.io/f/xoqgwwlw" method="POST">
-                    <input type="text" name="Name" placeholder="Name" required="" />
-                    <input type="email" name="Email" placeholder="Email" required="" />
-                    <textarea name="Message" placeholder="Message" required=""></textarea>
-                    <input type="submit" value="Submit" class="btn btn-primary" />
-                </form>
+                <a href="#">
+                    <h3>Daniel</h3>
+                </a>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Let's Talk</a></li>
+                </ul>
+                <button id="menu-btn">
+                    <span class="material-symbols-sharp">menu</span>
+                </button>
+                <button id="close-btn">
+                    <span class="material-symbols-sharp">close</span>
+                </button>
             </div>
-        </div>
-    </section>
+        </nav>
 
-    <footer>
-        <div class="container">
-            <a href="#">
-                <h3>Daniel</h3>
-            </a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Let's Talk</a></li>
-            </ul>
-            <div class="socials">
-              <a
-                href="https://www.linkedin.com/in/econometrics/"
-                target="_blank"
-                title="Visit my LinkedIn profile"
-              >
-                <i class="uil uil-linkedin"></i>
-              </a>
-              <a
-                href="https://github.com/thegitofdaniel"
-                target="_blank"
-                title="Visit my GitHub profile"
-              >
-                <i class="uil uil-github"></i>
-              </a>
-              <a
-                href="https://medium.com/@theblogofdaniel"
-                target="_blank"
-                title="Visit my Medium profile"
-              >
-                <i class="uil uil-medium-m"></i>
-              </a>
+        <section class="landing">
+            <div class="container">
+                <div class="socials">
+                    <a
+                        href="https://www.linkedin.com/in/econometrics/"
+                        target="_blank"
+                        title="Visit my LinkedIn profile"
+                    >
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a
+                        href="https://github.com/thegitofdaniel"
+                        target="_blank"
+                        title="Visit my GitHub profile"
+                    >
+                        <i class="uil uil-github"></i>
+                    </a>
+                    <a
+                        href="https://medium.com/@theblogofdaniel"
+                        target="_blank"
+                        title="Visit my Medium profile"
+                    >
+                        <i class="uil uil-medium-m"></i>
+                    </a>
+                </div>
+
+                <div class="info">
+                    <h1>Consultant in Data &amp; AI for Finance</h1>
+                    <h3>Hi, I'm Daniel Ruiz</h3>
+                    <p>
+                        I'm an Economist turned into Data Scientist and Machine Learning Engineer.
+                        That's a fancy way of saying I love Econometrics, developing models, and
+                        make them solve real-life problems. I am very curious about Data, AI, and
+                        Finance.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                    <a
+                        href="./assets/documents/CV - Daniel Ruiz.pdf"
+                        class="btn btn-primary"
+                        download="CV - Daniel Ruiz.pdf"
+                    >
+                        <i class="uil uil-download-alt"></i>
+                        Download CV
+                    </a>
+                </div>
+
+                <div class="profile-area">
+                    <div class="outer-circle">
+                        <span class="material-symbols-outlined">design_services</span>
+                        <span class="material-symbols-outlined">payments</span>
+                        <span class="material-symbols-outlined">code</span>
+                        <span class="material-symbols-outlined">subscriptions</span>
+                    </div>
+
+                    <div class="inner-circle">
+                        <img src="./assets/images/daniel-ruiz-portrait-square.jpg" alt="" />
+                    </div>
+                </div>
             </div>
-    
-        </div>
-        <div class="copyright">
-            Copyright &copy; Lyle Okoth
-        </div>
-    </footer>
+        </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="./scripts/main.js"></script>
+        <section class="about" id="about">
+            <h1>About</h1>
 
-</body>
+            <div class="container">
+                <div class="image">
+                    <img src="./assets/images/dalle-upward-arrow.png" alt="" />
+                </div>
+                <div class="info">
+                    <p>
+                        My curiosity has led me to develop awesome projects to clients all over
+                        Europe. I've had the privilege of unraveling the hidden potential within
+                        their data, employing the right questions and the latest technology stacks
+                        to deliver innovative solutions. Through this process, I've not only solved
+                        their immediate challenges but also emphasized the fundamental importance of
+                        data in shaping modern decision-making. By showcasing its ability to disrupt
+                        traditional business paradigms and unearth new value, I've made a tangible
+                        impact on both my clients' success and the broader landscape of innovation.
+                        It's a journey fueled by passion and purpose, and I'm excited to continue
+                        making strides in this ever-evolving field.
+                    </p>
+                    <div class="read-more-content">
+                        <p>
+                            Since 2020, I've played a pivotal role in building greenfield Data
+                            Platforms to enable large-caps on AIML and maximize the value derived
+                            from data. My contributions include developing models for Energy and Gas
+                            consumption using Azure Machine Learning, utilizing state-of-the-art
+                            algorithms to input missing data, establishing MLOPS processes for model
+                            deployment, implementing robust data pipelines, and introducing agile
+                            methodologies to strengthen team collaboration.
+                        </p>
+                        <p>
+                            In addition to my core responsibilities, I've also been actively
+                            involved in fostering a culture of continuous learning and innovation
+                            within the teams I've worked with. This has included organizing
+                            knowledge-sharing sessions, conducting workshops on emerging
+                            technologies and best practices, and mentoring junior team members to
+                            help them grow their skills and expertise in data science and machine
+                            learning. Furthermore, I've been instrumental in fostering strong
+                            cross-functional relationships between data science, engineering, and
+                            business stakeholders, ensuring alignment of objectives and effective
+                            communication channels throughout project life-cycles. By championing a
+                            collaborative and growth-oriented environment, I've helped foster a
+                            sense of ownership and accountability among team members, resulting in
+                            greater efficiency and success in achieving our project goals.
+                        </p>
+                    </div>
+                    <a class="read-more">Show More</a>
+                </div>
+            </div>
+        </section>
 
+        <section class="skills" id="skills">
+            <h1>Skills</h1>
+
+            <div class="container">
+                <div class="skill">
+                    <div class="head">
+                        <div class="left">
+                            <span class="material-icons-sharp">model_training</span>
+                            <h4>Model Development</h4>
+                        </div>
+                        <div class="right">
+                            <span class="material-icons-sharp">expand_more</span>
+                        </div>
+                    </div>
+
+                    <div class="items" id="items1"></div>
+
+                    <script>
+                        var items = [
+                            ['Econometrics', 100],
+                            ['Time-Series Analysis', 100],
+                            ['Machine Learning', 100],
+                            ['Classification Models', 100],
+                            ['Regression Analysis', 100],
+                            ['Forecasting', 100],
+                            ['Bayesian Methods', 100],
+                            ['Support Vector Machines (SVM)', 100],
+                            ['Dimensionality Reduction', 100],
+                            ['Feature Engineering', 100],
+                            ['Model Validation and Evaluation', 100],
+                            ['Anomaly Detection', 100],
+                            ['Hyperparameter Tuning', 100],
+                            ['Deep Learning', 90],
+                            ['Natural Language Processing (NLP)', 90],
+                            ['Ensemble Methods', 90],
+                            ['Computer Vision', 80],
+                            ['Reinforcement Learning', 80],
+                            ['Explainable AI (XAI)', 80],
+                            ['Transfer Learning', 80]
+                        ];
+                        generateProgressItems('items1', items);
+                    </script>
+                </div>
+
+                <div class="skill">
+                    <div class="head">
+                        <div class="left">
+                            <span class="material-icons-sharp">diversity_3</span>
+                            <h4>MLOPS</h4>
+                        </div>
+                        <div class="right">
+                            <span class="material-icons-sharp">expand_more</span>
+                        </div>
+                    </div>
+
+                    <div class="items" id="items2"></div>
+                    <script>
+                        var items = [
+                            [
+                                'Continuous Integration and Continuous Deployment (CI/CD) for ML',
+                                100
+                            ],
+                            ['Model Versioning and Management', 100],
+                            ['Automated Model Testing and Validation', 100],
+                            ['Azure Machine Learning', 100],
+                            ['Databricks', 100],
+                            ['Model Monitoring', 100],
+                            ['Model Experimentation and Tracking (Mlflow)', 100],
+                            ['Deployment', 100],
+                            ['ML Infrastructure and Resource Management (IaaC)', 100],
+                            ['Agile and Scrum', 100]
+                        ];
+                        generateProgressItems('items2', items);
+                    </script>
+                </div>
+
+                <div class="skill">
+                    <div class="head">
+                        <div class="left">
+                            <span class="material-icons-sharp">payments</span>
+                            <h4>Finance</h4>
+                        </div>
+                        <div class="right">
+                            <span class="material-icons-sharp">expand_more</span>
+                        </div>
+                    </div>
+
+                    <div class="items" id="items3"></div>
+                    <script>
+                        var items = [
+                            ['ESG Integration in Investment Analysis', 100],
+                            ['Corporate Finance Fundamentals', 100],
+                            ['Valuation Techniques and Models', 100],
+                            ['Fixed Income Securities Analysis', 100],
+                            ['Credit Risk Assessment and Management', 100],
+                            ['Interest Rate Risk Management', 100],
+                            ['Bond Pricing and Yield Analysis', 100],
+                            ['Portfolio Management Strategies for Fixed Income', 100],
+                            ['Financial Markets and Instruments Research', 100],
+                            ['Capital Structure and Funding Strategies', 100],
+                            ['Regulatory Compliance and Reporting in Finance', 100]
+                        ];
+                        generateProgressItems('items3', items);
+                    </script>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h1>Services</h1>
+            <div class="container">
+                <div class="service">
+                    <span class="material-icons-sharp">model_training</span>
+                    <h3>Model Development</h3>
+                    <p>
+                        I development professional Machine Learning and Econometric models using the
+                        latest frameworks and technologies, and I am committed to generating a
+                        value-adding solution. The data and context should determine the complexity
+                        of the solution adopted.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <span class="material-icons-sharp">diversity_3</span>
+                    <h3>MLOPS</h3>
+                    <p>
+                        I introduce Data &amp; AI teams to best practices of MLOPS, Software
+                        Engineering, and Agile. I help them work better together to deliver
+                        excellent data products faster through proven Ways of Working. I help teams
+                        master GitHub, Azure, and Databricks.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <span class="material-icons-sharp">payments</span>
+                    <h3>Finance</h3>
+                    <p>
+                        I use quantitative and qualitative financial data to scientifically perform
+                        the Valuation and risk of companies and bonds, as well as aggregate
+                        properties of portfolios.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <h1>Portfolio</h1>
+            <div class="container">
+                <div class="projects">
+                    <div class="project">
+                        <div class="thumbnail">
+                            <img src="./assets/images/pypi-interesting.png" alt="" />
+                        </div>
+                        <h2>interesting</h2>
+                        <p>
+                            The interesting Python package is a specialized toolkit for dealing with
+                            Brazilian fixed income titles. It provides functionalities to build,
+                            analyze, visualize, and valuate various types of fixed income
+                            instruments and portfolios made thereof.
+                        </p>
+                        <div class="action">
+                            <a href="https://github.com/thegitofdaniel/interesting" target="_blank">
+                                Github
+                            </a>
+                            <a href="https://pypi.org/project/interesting" target="_blank">PyPi</a>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="thumbnail">
+                            <img src="./assets/images/thewebsiteofdaniel.png" alt="" />
+                        </div>
+                        <h2>My Website</h2>
+                        <p>
+                            Yes, this website is available on my GitHub. It has been built from
+                            open-sourced templates. You may copy it too, aas long as you keep the
+                            license.
+                        </p>
+                        <div class="action">
+                            <a
+                                href="https://github.com/thegitofdaniel/thewebsiteofdaniel"
+                                target="_blank"
+                            >
+                                Github
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="overlay">
+                <div class="container">
+                    <h1>Let's Talk</h1>
+                    <p>I will get back to you as soon as possible.</p>
+                    <form action="https://formspree.io/f/xoqgwwlw" method="POST">
+                        <input type="text" name="Name" placeholder="Name" required="" />
+                        <input type="email" name="Email" placeholder="Email" required="" />
+                        <textarea name="Message" placeholder="Message" required=""></textarea>
+                        <input type="submit" value="Submit" class="btn btn-primary" />
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <a href="#">
+                    <h3>Daniel</h3>
+                </a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Let's Talk</a></li>
+                </ul>
+                <div class="socials">
+                    <a
+                        href="https://www.linkedin.com/in/econometrics/"
+                        target="_blank"
+                        title="Visit my LinkedIn profile"
+                    >
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a
+                        href="https://github.com/thegitofdaniel"
+                        target="_blank"
+                        title="Visit my GitHub profile"
+                    >
+                        <i class="uil uil-github"></i>
+                    </a>
+                    <a
+                        href="https://medium.com/@theblogofdaniel"
+                        target="_blank"
+                        title="Visit my Medium profile"
+                    >
+                        <i class="uil uil-medium-m"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; Daniel Ruiz</div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="./scripts/main.js"></script>
+    </body>
 </html>
