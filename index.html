@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel</title>
 
+    <!-- Scripts -->
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="scripts/functions.js"></script>
+
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-
-    <!-- Scripts -->
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/functions.js"></script>
 
     <!-- Stylesheets -->
     <link
@@ -69,7 +68,10 @@
 
     <div id="target-about"></div>
     <script>
-      importComponent((component = 'components/about.html'), (targetDiv = 'target-about'));
+      importComponent(
+        (component = 'components/about.html'),
+        (targetDiv = 'target-about'),
+      );
     </script>
 
     <div id="target-skills"></div>
@@ -86,16 +88,6 @@
     <script>
       importComponent((component = 'components/portfolio.html'), (targetDiv = 'target-portfolio'));
     </script>
-
-    <!--
-  <div id="target-testimonials"></div>
-  <script>
-      importComponent(
-      (component = "components/testimonials.html"),
-      (targetDiv = "target-testimonials")
-      );
-  </script>
-  -->
 
     <div id="target-contact"></div>
     <script>
@@ -115,14 +107,35 @@
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Let's Talk</a></li>
         </ul>
-        <div id="socialsTarget2"></div>
-        <script>
-          importComponent((component = 'components/socials.html'), (targetDiv = 'socialsTarget2'));
-        </script>
+        <div class="socials">
+          <a
+            href="https://www.linkedin.com/in/econometrics/"
+            target="_blank"
+            title="Visit my LinkedIn profile"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/thegitofdaniel"
+            target="_blank"
+            title="Visit my GitHub profile"
+          >
+            <i class="uil uil-github"></i>
+          </a>
+          <a
+            href="https://medium.com/@theblogofdaniel"
+            target="_blank"
+            title="Visit my Medium profile"
+          >
+            <i class="uil uil-medium-m"></i>
+          </a>
+        </div>
       </div>
       <div class="copyright">Copyright &copy; Daniel Ruiz</div>
     </footer>
 
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
 </html>
